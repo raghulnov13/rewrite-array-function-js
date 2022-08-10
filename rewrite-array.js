@@ -2,6 +2,17 @@ var a =[10, 30, 50, 20,60];
 
 
 // push
+function myPush(array, value){
+
+    var length = array.length;
+    array[length] = value;
+
+    return array;
+}
+
+a = myPush(a, 10);
+
+console.log(a)
 
 
 
@@ -16,5 +27,5 @@ function myPop(array){
 
     return newArray;
 }
-a = myPop(a);
-console.log(a);
+// a = myPop(a);
+// console.log(a);
